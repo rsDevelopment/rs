@@ -1,14 +1,21 @@
-sudo rm -R /var/www/rs/app/tmp/cache/models
-sudo rm -R /var/www/rs/app/tmp/cache/persistent
-sudo rm -R /var/www/rs/app/tmp/cache/views
+chmod -R 777 ../app/tmp/cache
+sudo chgrp -R www-data ../app/tmp/cache
 
-sudo mkdir /var/www/rs/app/tmp/cache/models
-sudo mkdir /var/www/rs/app/tmp/cache/persistent
-sudo mkdir /var/www/rs/app/tmp/cache/views
 
-sudo chgrp -R www-data /var/www/rs/app/tmp/cache
-sudo chmod -R 777 /var/www/rs/app/tmp/cache
+sudo chmod -R 777 ../app/tmp/cache/models
+sudo chgrp -R www-data ../app/tmp/cache/models
+
+sudo chmod -R 777 ../app/tmp/cache/persistent
+sudo chgrp -R www-data ../app/tmp/cache/persistent
+
+sudo chmod -R 777 ../app/tmp/cache/views
+sudo chgrp -R www-data ../app/tmp/cache/views
+
+sudo chmod -R 777 ../app/tmp
+sudo chgrp -R www-data ../app/tmp
+
 
 sudo /etc/init.d/apache2 restart
 
 
+~                 
