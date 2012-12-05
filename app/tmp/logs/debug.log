@@ -1,0 +1,158 @@
+2012-12-04 22:35:12 Debug: Loging starting 
+2012-12-04 22:35:12 Debug: Login setting layout to unauthorized
+2012-12-04 22:35:12 Debug: Loging Not a post; instead a GET request
+2012-12-04 22:36:54 Debug: Loging starting 
+2012-12-04 22:36:54 Debug: Login setting layout to unauthorized
+2012-12-04 22:36:54 Debug: Loging Not a post; instead a GET request
+2012-12-04 22:37:03 Debug: Loging starting 
+2012-12-04 22:37:03 Debug: Loging starting Is a Post 
+2012-12-04 22:37:03 Debug: Loging User not Authenticated 
+2012-12-04 22:37:09 Debug: Loging starting 
+2012-12-04 22:37:09 Debug: Loging starting Is a Post 
+2012-12-04 22:37:09 Debug: Loging User not Authenticated 
+2012-12-04 22:37:27 Debug: Loging starting 
+2012-12-04 22:37:27 Debug: Login setting layout to unauthorized
+2012-12-04 22:37:27 Debug: Loging Not a post; instead a GET request
+2012-12-04 22:37:34 Debug: Loging starting 
+2012-12-04 22:37:34 Debug: Loging starting Is a Post 
+2012-12-04 22:37:34 Debug: Loging starting Successful
+2012-12-04 22:37:34 Debug: Loging starting redirecting to: /users
+2012-12-04 22:38:41 Debug: Template call executing. Home id: 2
+2012-12-04 22:38:41 Debug: THE SQL: start
+2012-12-04 22:38:41 Debug: Array
+(
+    [0] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => Shower Head
+                    [category] => bathroom
+                    [description] => fffsure it does not have any type of leak
+                    [template_id] => 1
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 1
+                    [checklistid] => 4
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => sssad
+                    [category] => living room
+                    [description] => dsfsd
+                    [template_id] => 2
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 1
+                    [checklistid] => 5
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [2] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => TV Set
+                    [category] => living room
+                    [description] => Verify Wires
+                    [template_id] => 3
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 1
+                    [checklistid] => 6
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [3] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => Swimming
+                    [category] => bathroom
+                    [description] => Clean or dirty
+                    [template_id] => 4
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 0
+                    [checklistid] => 7
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [4] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => Swimming pool
+                    [category] => bathroom
+                    [description] => backyard and salt
+                    [template_id] => 11
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 1
+                    [checklistid] => 8
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [5] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => New Templateh
+                    [category] => bathroom
+                    [description] => none For Now
+                    [template_id] => 12
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 0
+                    [checklistid] => 29
+                    [homechecklistid] => 2
+                )
+
+        )
+
+    [6] => Array
+        (
+            [templates] => Array
+                (
+                    [label] => TV
+                    [category] => living room
+                    [description] => None for now
+                    [template_id] => 13
+                )
+
+            [checklists] => Array
+                (
+                    [required] => 0
+                    [checklistid] => 42
+                    [homechecklistid] => 2
+                )
+
+        )
+
+)
+
