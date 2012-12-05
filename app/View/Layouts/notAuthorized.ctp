@@ -3,9 +3,8 @@
   <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $title_for_layout; ?>
+		111<?php echo $title_for_layout; ?>
 	</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Felix Guerrero">
@@ -14,7 +13,6 @@
 	<?php
 		echo $this->Html->meta('icon');
 		echo $this->Html->css('bootstrap');
-		echo $this->Html->css('datepicker');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -25,35 +23,32 @@
       }
     </style>
 	<?php echo $this->Html->css('bootstrap.css'); ?>
+	<?php echo $this->Html->css('bootstrap-responsive.css'); ?>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-
-    <!-- Le fav and touch icons -->  
-
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">  
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">  
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">  
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/rs/img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/rs/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/rs/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/rs/img/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">
-		  <a class="brand" href="#">Project name</a>
-		    <ul class="nav">
-			<li><?php echo $this->html->link('Homes', array('controller'=>'homes','action'=>'index')); ?></li>
-			<li><?php echo $this->html->link('Users', array('controller'=>'users','action'=>'index')); ?></li>
-			<li><?php echo $this->html->link('Templates', array('controller'=>'templates','action'=>'index')); ?></li>
-			<li><?php echo $this->html->link('Logout', array('controller'=>'users','action'=>'logout')); ?></li>
-			<li><a href="#contact">Contact</a></li>
-		    </ul>
-		</div>
-	</div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Project name</a>
+      </div>
     </div>
 
     <div class="container">
@@ -67,6 +62,8 @@
 		<?php echo $this->element('sql_dump'); ?>
 	</div>
     </div> <!-- /container -->
+
+
 
 
     <!-- Le javascript ================================================== -->
@@ -86,7 +83,7 @@
 <?php echo $this->Html->script('bootstrap-collapse.js'); ?>
 <?php echo $this->Html->script('bootstrap-carousel.js'); ?>
 <?php echo $this->Html->script('bootstrap-typeahead.js'); ?>
-<?php echo $this->Html->script('bootstrap-datepicker.js'); ?>
+
 </body>
 </html>
 

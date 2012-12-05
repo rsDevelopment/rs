@@ -1,0 +1,58 @@
+
+
+Sun Dec  2 22:51:42 2012
+Command line: TestDisk
+
+TestDisk 6.13, Data Recovery Utility, November 2011
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.2.0-23-generic (#36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012) x86_64
+Compiler: GCC 4.6
+Compilation date: 2012-02-05T07:15:52
+ext2fs lib: 1.42, ntfs lib: 10:0:0, reiserfs lib: none, ewf lib: none
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       1250263728 sectors
+/dev/sda: user_max   1250263728 sectors
+/dev/sda: native_max 1250263728 sectors
+/dev/sda: dco        1250263728 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - CHS 1 1 1, sector size=512
+Hard disk list
+Disk /dev/sda - 640 GB / 596 GiB - CHS 77825 255 63, sector size=512 - TOSHIBA MK6459GSXP, S/N:6126F30RS, FW:GT001H
+
+Partition table type (auto): Intel
+Disk /dev/sda - 640 GB / 596 GiB - TOSHIBA MK6459GSXP
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+check_part_i386 1 type 27: no test
+NTFS at 1427/106/24
+NTFS at 1440/42/11
+Info: size boot_sector 784459641, partition 784459653
+ 1 P Windows RE(store)        0  32 33  1427 106 23   22929408
+ 2 * HPFS - NTFS           1427 106 24  1440  42 10     204800 [System Reserved]
+     NTFS, 104 MB / 100 MiB
+ 3 P HPFS - NTFS           1440  42 11 50270 132 43  784459653
+     NTFS, 401 GB / 374 GiB
+ 4 E extended             50270 134 39 77825  70  5  442667010
+ 5 L Linux                50270 134 41 77309 187 62  434384896
+     EXT4 Large file Sparse superblock Recover, 222 GB / 207 GiB
+   X extended             77309 187 63 77825  70  5    8282112
+ 6 L Linux Swap           77309 220 32 77825  70  5    8280064
+     SWAP2 version 1, 4239 MB / 4043 MiB
+
+Analyse Disk /dev/sda - 640 GB / 596 GiB - CHS 77825 255 63
+Geometry from i386 MBR: head=255 sector=63
+check_part_i386 1 type 27: no test
+NTFS at 1427/106/24
+NTFS at 1440/42/11
+Info: size boot_sector 784459641, partition 784459653
+Current partition structure:
+ 1 P Windows RE(store)        0  32 33  1427 106 23   22929408
+ 2 * HPFS - NTFS           1427 106 24  1440  42 10     204800 [System Reserved]
+ 3 P HPFS - NTFS           1440  42 11 50270 132 43  784459653
+ 4 E extended             50270 134 39 77825  70  5  442667010
+ 5 L Linux                50270 134 41 77309 187 62  434384896
+   X extended             77309 187 63 77825  70  5    8282112
+ 6 L Linux Swap           77309 220 32 77825  70  5    8280064
+SIGINT detected! TestDisk has been killed.
